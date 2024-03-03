@@ -133,14 +133,14 @@ table {
 }
 
 @font-face {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   src: url("../fonts/Neucha.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: OpenSans;
+  font-family: OpenSans, sans-serif;
   src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
 }
 
@@ -175,15 +175,15 @@ h2 {
   color: white;
 }
 
-.title-box h1 span,
-h2 span {
-  color: #FE8A02;
-}
-
 .title-box h2 {
   font-size: 60px;
   margin: 0px auto;
   text-align: center;
+}
+
+.title-box h1 span,
+h2 span {
+  color: #FE8A02;
 }
 
 .page-block-1::before,
@@ -212,13 +212,12 @@ h2 span {
 }
 
 .footer-page h2 {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   font-size: 34px;
   font-weight: 400;
   line-height: 41px;
-  letter-spacing: 0em;
   text-align: left;
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 .title-text-box h2 {
@@ -240,11 +239,10 @@ h2 span {
 
 .page-block-2 .main-text {
   margin: 30px auto;
-  font-family: OpenSans;
+  font-family: OpenSans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0em;
   text-align: center;
   color: #212529;
 }
@@ -262,11 +260,10 @@ h2 span {
 
 .page-block-3 .title-card h2 {
   padding-left: 0;
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   font-size: 52px;
   font-weight: 400;
   line-height: 62px;
-  letter-spacing: 0em;
   text-align: left;
 }
 
@@ -283,27 +280,25 @@ h2 span {
 .page-block-3 .title-card {
   padding: 0;
   background-color: #42413C;
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   font-size: 52px;
   font-weight: 400;
   line-height: 62px;
-  letter-spacing: 0em;
   text-align: left;
 }
 
 
 .page-block-3 .main-text h3 {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   font-size: 34px;
   font-weight: 400;
   line-height: 41px;
-  letter-spacing: 0em;
   text-align: left;
   color: #FE8A02;
 }
 
 .page-block-3 .main-text .card-number {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   font-size: 64px;
   font-weight: 400;
   line-height: 71px;
@@ -330,7 +325,7 @@ h2 span {
 }
 
 .page-block-brown .title-text-box {
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 .page-block-brown .title-text-box p:first-child {
@@ -338,7 +333,7 @@ h2 span {
 }
 
 .page-block-brown .title-text-box h2 {
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 .footer-page {
@@ -363,11 +358,10 @@ h2 span {
 
 .learn-more {
   padding-top: 55px;
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   font-size: 34px;
   font-weight: 400;
   line-height: 41px;
-  letter-spacing: 0em;
   text-align: left;
   min-width: 390px;
 }
@@ -397,11 +391,10 @@ h2 span {
 }
 
 .email {
-  font-family: OpenSans;
+  font-family: OpenSans, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 29px;
-  letter-spacing: 0em;
   text-align: left;
   margin-bottom: 2px;
   color: #FFF;
@@ -416,11 +409,10 @@ h2 span {
 
 .notification {
   margin-top: 2px;
-  font-family: OpenSans;
+  font-family: OpenSans, sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 19px;
-  letter-spacing: 0em;
   text-align: left;
   color: #FFF;
 
@@ -430,11 +422,10 @@ h2 span {
   margin: 0 auto;
   padding-bottom: 96px;
   text-align: center;
-  font-family: OpenSans;
+  font-family: OpenSans, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
-  letter-spacing: 0em;
   text-align: center;
   color: black;
 }
@@ -457,10 +448,9 @@ h2 span {
 .title-text-box {
   margin-left: 30px;
   margin-bottom: 0;
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   font-size: 34px;
   font-weight: 400;
-  letter-spacing: 0em;
   text-align: left;
   color: #2A2626;
 }
@@ -477,11 +467,10 @@ h2 span {
   padding: 3px;
   background-color: #B09A81;
   color: #FFF;
-  font-family: OpenSans;
+  font-family: OpenSans, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 17px;
-  letter-spacing: 0em;
   text-align: left;
 }
 
@@ -529,7 +518,6 @@ h2 span {
   font-size: 16px;
   font-weight: 700;
   line-height: 26px;
-  letter-spacing: 0em;
   background-color: #FE8A02;
   font-family: "OpenSans";
   color: white;
