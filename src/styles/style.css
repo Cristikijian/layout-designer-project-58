@@ -182,7 +182,7 @@ h2 {
 }
 
 .title-box h1 span,
-h2 span {
+.title-box h2 span {
   color: #FE8A02;
 }
 
@@ -220,6 +220,21 @@ h2 span {
   color: #FFF;
 }
 
+.title-text-box {
+  margin-left: 30px;
+  margin-bottom: 0;
+  font-family: Neucha, sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  text-align: left;
+  color: #2A2626;
+}
+
+.title-text-box p:first-child {
+  color: #908D8B;
+  font-size: 24px;
+}
+
 .title-text-box h2 {
   margin: 0;
   text-align: left;
@@ -253,8 +268,8 @@ h2 span {
   padding-top: 200px;
   padding-bottom: 100px;
   display: flex;
-  flex-direction: row;
   flex-flow: wrap;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -331,8 +346,8 @@ h2 span {
 
 .footer-page {
   display: flex;
-  flex-direction: row;
   flex-flow: wrap;
+  flex-direction: row;
   justify-content: space-between;
   margin: 100px 165px 0;
   max-width: 1110px;
@@ -437,16 +452,6 @@ h2 span {
 
 }
 
-.title-text-box {
-  margin-left: 30px;
-  margin-bottom: 0;
-  font-family: Neucha, sans-serif;
-  font-size: 34px;
-  font-weight: 400;
-  text-align: left;
-  color: #2A2626;
-}
-
 .definition {
   margin-top: 30px;
 }
@@ -467,11 +472,6 @@ h2 span {
 .page-block-brown .border-line {
   background: #FFF;
   color: #B09A81;
-}
-
-.title-text-box p:first-child {
-  color: #908D8B;
-  font-size: 24px;
 }
 
 .image-page-main {
@@ -514,7 +514,7 @@ h2 span {
   font-weight: 700;
   line-height: 26px;
   background-color: #FE8A02;
-  font-family: "OpenSans";
+  font-family: OpenSans, sans-serif;
   color: white;
   border: none;
 }
