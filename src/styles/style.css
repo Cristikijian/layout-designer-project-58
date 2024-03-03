@@ -84,7 +84,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
@@ -120,10 +119,10 @@ q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
   content: '';
   content: none;
 }
@@ -134,14 +133,14 @@ table {
 }
 
 @font-face {
-  font-family: "Neucha";
+  font-family: Neucha;
   src: url("../fonts/Neucha.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "OpenSans";
+  font-family: OpenSans;
   src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
 }
 
@@ -158,7 +157,7 @@ main {
 .text-box {
   display: flex;
   flex-direction: row;
-  font-family: "OpenSans";
+  font-family: OpenSans;
   font-size: 16px;
   line-height: 25.6px;
 }
@@ -170,10 +169,15 @@ main {
 .title-box h1,
 h2 {
   max-width: 50%;
-  font-family: 'Neucha';
+  font-family: Neucha;
   font-size: 72px;
   line-height: 72px;
   color: white;
+}
+
+.title-box h1 span,
+h2 span {
+  color: #FE8A02;
 }
 
 .title-box h2 {
@@ -182,12 +186,7 @@ h2 {
   text-align: center;
 }
 
-.title-box h1 span,
-h2 span {
-  color: #FE8A02;
-}
-
-.page-block-1:before,
+.page-block-1::before,
 .page-block-light::before,
 .page-block-brown::before {
   content: ' ';
@@ -197,7 +196,7 @@ h2 span {
   top: 0;
   width: 100%;
   height: 100%;
-  opacity: 6%;
+  opacity: 0.06;
   background-image: url('../images/background.png');
   background-repeat: no-repeat;
   background-position: 50% 0;
@@ -212,6 +211,23 @@ h2 span {
   max-height: 914px;
 }
 
+.footer-page h2 {
+  font-family: Neucha;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.title-text-box h2 {
+  margin: 0;
+  text-align: left;
+  font-size: 60px;
+  color: #2A2626;
+}
+
 .page-block-1 .title-box h1,
 .page-block-2 .title-box h2 {
   color: #2A2626;
@@ -224,7 +240,7 @@ h2 span {
 
 .page-block-2 .main-text {
   margin: 30px auto;
-  font-family: "OpenSans";
+  font-family: OpenSans;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -236,9 +252,6 @@ h2 span {
 .page-block-3 {
   max-width: 1440px;
   background-color: #42413C;
-}
-
-.page-block-3 {
   padding-top: 200px;
   padding-bottom: 100px;
   display: flex;
@@ -246,7 +259,6 @@ h2 span {
   flex-wrap: wrap;
   justify-content: center;
 }
-
 
 .page-block-3 .title-card h2 {
   padding-left: 0;
@@ -309,11 +321,11 @@ h2 span {
   padding: 100px 137px 100px 165px;
   position: relative;
   background-color: #B09A81;
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 .page-block-brown .border-line {
-  background: #FFFFFF;
+  background: #FFF;
   color: #B09A81;
 }
 
@@ -334,7 +346,7 @@ h2 span {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 100px 165px 0px 165px;
+  margin: 100px 165px 0px;
   max-width: 1110px;
   max-height: 190px;
 }
@@ -392,7 +404,7 @@ h2 span {
   letter-spacing: 0em;
   text-align: left;
   margin-bottom: 2px;
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 .email-form-button img {
@@ -401,15 +413,6 @@ h2 span {
   align-items: center;
 }
 
-.footer-page h2 {
-  font-family: Neucha;
-  font-size: 34px;
-  font-weight: 400;
-  line-height: 41px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #FFFFFF;
-}
 
 .notification {
   margin-top: 2px;
@@ -419,7 +422,7 @@ h2 span {
   line-height: 19px;
   letter-spacing: 0em;
   text-align: left;
-  color: #FFFFFF;
+  color: #FFF;
 
 }
 
@@ -454,7 +457,7 @@ h2 span {
 .title-text-box {
   margin-left: 30px;
   margin-bottom: 0;
-  font-family: "Neucha";
+  font-family: Neucha;
   font-size: 34px;
   font-weight: 400;
   letter-spacing: 0em;
@@ -462,12 +465,7 @@ h2 span {
   color: #2A2626;
 }
 
-.title-text-box h2 {
-  margin: 0;
-  text-align: left;
-  font-size: 60px;
-  color: #2A2626;
-}
+
 
 .definition {
   margin-top: 30px;
@@ -478,8 +476,8 @@ h2 span {
   margin-bottom: 30px;
   padding: 3px;
   background-color: #B09A81;
-  color: #FFFFFF;
-  font-family: "OpenSans";
+  color: #FFF;
+  font-family: OpenSans;
   font-size: 14px;
   font-weight: 700;
   line-height: 17px;
