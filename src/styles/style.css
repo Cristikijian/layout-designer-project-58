@@ -337,10 +337,6 @@ h2 {
   margin-left: 30px;
 }
 
-.page-block-brown .title-text-box {
-  margin-right: 30px;
-}
-
 .page-block-brown {
   padding: 100px 137px 100px 165px;
   position: relative;
@@ -350,6 +346,7 @@ h2 {
 
 .page-block-brown .title-text-box {
   color: #FFF;
+  margin-right: 30px;
 }
 
 .page-block-brown .title-text-box p:first-child {
