@@ -164,6 +164,8 @@ main {
 
 .title-box {
   display: flex;
+  position: relative;
+  z-index: 9;
 }
 
 .title-box h1,
@@ -494,6 +496,12 @@ h2 {
 
 .image-page {
   vertical-align: middle;
+}
+
+.image-page img {
+  opacity: 1;
+  box-shadow: 0px 16px 32px 0px #00000026;
+
 }
 
 
