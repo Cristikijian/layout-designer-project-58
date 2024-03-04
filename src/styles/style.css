@@ -168,6 +168,7 @@ main {
 .text-box {
   display: flex;
   flex-direction: row;
+  font-weight: 400;
   font-family: OpenSans, sans-serif;
   font-size: 16px;
   line-height: 25.6px;
@@ -311,6 +312,11 @@ h2 {
   font-weight: 400;
   line-height: 62px;
   text-align: left;
+  color: #FE8A02;
+}
+
+.page-block-3 .title-card h2 span {
+  color: #FFF;
 }
 
 .page-block-3 .main-text {
@@ -536,6 +542,7 @@ h2 {
 
 .image-page {
   vertical-align: middle;
+  display: flex;
 }
 
 .image-page img {
@@ -585,4 +592,8 @@ h2 {
   display: block;
   margin: -50px auto;
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+}
+
+#hyperbolic-depreciation {
+  height: 937px;
 }
