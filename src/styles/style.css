@@ -136,7 +136,7 @@ table {
   font-family: Neucha;
   src: url("../fonts/Neucha.ttf") format("truetype");
   font-style: normal;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 @font-face {
@@ -374,7 +374,7 @@ h2 {
 
 .page-block-brown .title-text-box {
   color: #FFF;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .page-block-brown .title-text-box p:first-child {
@@ -497,7 +497,7 @@ h2 {
   margin-top: 30px;
   font-family: Neucha, sans-serif;
   font-size: 34px;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 41px;
   letter-spacing: 0;
   text-align: left;
