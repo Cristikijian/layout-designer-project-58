@@ -362,7 +362,7 @@ h2 {
 }
 
 .page-block-light {
-  padding: 100px 137px 100px 165px;
+  padding: 100px 165px;
   position: relative;
   background-color: #F5F4F0;
 }
@@ -372,7 +372,7 @@ h2 {
 }
 
 .page-block-brown {
-  padding: 100px 137px 100px 165px;
+  padding: 100px 165px;
   position: relative;
   background-color: #B09A81;
   color: #FFF;
@@ -592,8 +592,4 @@ h2 {
   display: block;
   margin: -50px auto;
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
-}
-
-#hyperbolic-depreciation {
-  height: 937px;
 }
