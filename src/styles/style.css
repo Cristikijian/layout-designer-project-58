@@ -534,10 +534,8 @@ h2 {
 
 .image-page-main img {
   position: relative;
-  right: 25%;
-  bottom: 15%;
-  max-width: 1082px;
-  max-height: 525px;
+  right: 295px;
+  top: -60px;
 }
 
 .image-page {
