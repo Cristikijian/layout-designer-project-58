@@ -151,6 +151,12 @@ table {
 
 main {
   max-width: 1440px;
+  margin: 0 auto;
+}
+
+header h1 {
+  height: 525px;
+  max-width: auto;
 }
 
 .main-text p {
@@ -182,7 +188,6 @@ main {
 
 .title-box h1,
 h2 {
-  max-width: 50%;
   font-family: Neucha, sans-serif;
   color: white;
   font-size: 72px;
@@ -194,9 +199,6 @@ h2 {
 
 .title-box h2 {
   max-width: 50%;
-  font-family: Neucha, sans-serif;
-  line-height: 72px;
-  color: white;
   font-size: 60px;
   margin: 0 auto;
   text-align: center;
@@ -230,10 +232,9 @@ h2 {
 }
 
 .page-block-1 {
-  padding: 100px 137px 100px 165px;
+  padding: 100px 165px;
   position: relative;
   background-color: #F5F4F0;
-  max-width: 1440px;
   max-height: 914px;
 }
 
@@ -245,8 +246,6 @@ h2 {
   text-align: left;
   color: #FFF;
 }
-
-
 
 .title-text-box {
   margin-bottom: 0;
@@ -528,13 +527,14 @@ h2 {
 
 .image-page-main {
   position: relative;
-
+  z-index: -1;
 }
 
 .image-page-main img {
   position: relative;
-  right: 295px;
-  top: -60px;
+  height: 525px;
+  right: 270px;
+  top: -55px;
 }
 
 .image-page {
@@ -558,8 +558,8 @@ h2 {
   flex: 50%;
 }
 
-.right-text-box .main-text:first-child {
-  margin-bottom: 25px;
+.right-text-box .main-text:not(:first-child) {
+  margin-top: 25px;
 }
 
 .btn-see-more {
