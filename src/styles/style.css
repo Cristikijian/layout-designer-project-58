@@ -222,8 +222,9 @@ h2 {
   color: #FFF;
 }
 
+
+
 .title-text-box {
-  margin-left: 30px;
   margin-bottom: 0;
   font-family: Neucha, sans-serif;
   font-size: 34px;
@@ -330,6 +331,14 @@ h2 {
   padding: 100px 137px 100px 165px;
   position: relative;
   background-color: #F5F4F0;
+}
+
+.page-block-light .title-text-box {
+  margin-left: 30px;
+}
+
+.page-block-brown .title-text-box {
+  margin-right: 30px;
 }
 
 .page-block-brown {
