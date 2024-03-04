@@ -175,6 +175,7 @@ main {
 
 .title-box {
   display: flex;
+  justify-content: space-between;
   position: relative;
   z-index: 9;
 }
@@ -221,6 +222,11 @@ h2 {
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
+}
+
+.page-block-light::before,
+.page-block-brown::before {
+  opacity: 0.1;
 }
 
 .page-block-1 {
@@ -499,7 +505,7 @@ h2 {
 
 .border-line {
   margin-top: 100px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   padding: 3px;
   background-color: #B09A81;
   color: #FFF;
