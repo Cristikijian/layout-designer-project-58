@@ -282,6 +282,8 @@ h2 {
 }
 
 .page-block-2 {
+  height: 914px;
+  margin-bottom: -200px;
   padding-top: 100px;
   background-color: white;
 }
@@ -290,8 +292,17 @@ h2 {
   margin-bottom: 27px;
 }
 
+.page-block-2 .title-box h2 {
+  line-height: 72px;
+}
+
+.page-block-2 .title-box h2 span {
+  display: block;
+  line-height: 1;
+}
+
 .page-block-2 .main-text {
-  margin: 30px auto;
+  margin: 27px auto 30px auto;
   font-family: OpenSans, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -305,7 +316,6 @@ h2 {
 }
 
 .page-block-3 {
-  margin-top: -100px;
   max-width: 1440px;
   background-color: #42413C;
   padding-top: 200px;
@@ -608,5 +618,5 @@ h2 {
 .video {
   display: block;
   margin: 0 auto;
-  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
+  box-shadow: 0px 16px 32px 0px #00000026;
 }
