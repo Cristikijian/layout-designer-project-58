@@ -238,7 +238,11 @@ h2 {
   max-height: 914px;
 }
 
-.footer-page h2 {
+.page-block-1 .text-box {
+  margin-top: -90px;
+}
+
+.footer h2 {
   font-family: Neucha, sans-serif;
   font-size: 34px;
   font-weight: 400;
@@ -390,7 +394,7 @@ h2 {
   color: #FFF;
 }
 
-.footer-page {
+.footer {
   display: flex;
   flex-flow: wrap;
   flex-direction: row;
@@ -477,7 +481,7 @@ h2 {
 
 }
 
-.footer {
+.footer-copywrite {
   margin: 0 auto;
   padding-bottom: 96px;
   text-align: center;
