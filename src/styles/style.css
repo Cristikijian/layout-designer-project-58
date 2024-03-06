@@ -286,6 +286,10 @@ h2 {
   background-color: white;
 }
 
+.page-block-2 .title-box {
+  margin-bottom: 27px;
+}
+
 .page-block-2 .main-text {
   margin: 30px auto;
   font-family: OpenSans, sans-serif;
@@ -296,7 +300,12 @@ h2 {
   color: #212529;
 }
 
+.page-block-2 .main-text p {
+  text-align: center;
+}
+
 .page-block-3 {
+  margin-top: -100px;
   max-width: 1440px;
   background-color: #42413C;
   padding-top: 200px;
@@ -322,17 +331,16 @@ h2 {
 }
 
 .page-block-3 .main-text {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   box-sizing: border-box;
   background-color: #F5F4F0;
   width: 350px;
-  height: 323px;
-  margin-right: 30px;
-  padding: 0 24px;
+  margin-left: 30px;
+  padding: 24px;
 }
 
 .page-block-3 .title-card {
-  padding: 0;
+  padding: 0 24px 0 0;
   background-color: #42413C;
   font-family: Neucha, sans-serif;
   font-size: 52px;
@@ -352,8 +360,7 @@ h2 {
 }
 
 .card-number {
-  margin-top: 24px;
-  margin-bottom: 16px;
+  margin-bottom: 40px;
 }
 
 .page-block-3 .main-text .card-number {
@@ -596,6 +603,6 @@ h2 {
 
 .video {
   display: block;
-  margin: -100px auto;
+  margin: 0 auto;
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
