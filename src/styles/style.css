@@ -318,8 +318,7 @@ h2 {
 .page-block-3 {
   max-width: 1440px;
   background-color: #42413C;
-  padding-top: 200px;
-  padding-bottom: 80px;
+  padding: 200px 135px 80px 165px;
   display: flex;
   flex-flow: wrap;
   flex-direction: row;
@@ -376,7 +375,7 @@ h2 {
 }
 
 .card-number {
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 
 .page-block-3 .main-text .card-number {
