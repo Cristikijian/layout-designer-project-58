@@ -154,11 +154,16 @@ main {
   margin: 0 auto;
 }
 
+h2 {
+  font-size: 60px;
+}
+
 header h1 {
   height: 525px;
   max-width: auto;
 }
 
+p,
 .main-text p {
   margin-top: 12px;
   font-family: OpenSans, sans-serif;
@@ -406,6 +411,10 @@ h2 {
   color: #FFF;
 }
 
+.page-block-brown p {
+  color: inherit;
+}
+
 .page-block-brown .title-text-box {
   color: #FFF;
   margin-right: 20px;
@@ -421,12 +430,9 @@ h2 {
 
 .footer {
   display: flex;
-  flex-flow: wrap;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   margin: 100px 165px 0;
   max-width: 1110px;
-  height: 200px;
 }
 
 .newsletter-form {
@@ -507,7 +513,7 @@ h2 {
 }
 
 .footer-copywrite {
-  margin: 0 auto;
+  margin-top: 76px;
   padding-bottom: 96px;
   text-align: center;
   font-family: OpenSans, sans-serif;
@@ -517,11 +523,7 @@ h2 {
   color: black;
 }
 
-.copywrite {
-  margin-top: 76px;
-  margin-bottom: 16px;
-}
-
+.copywrite,
 .source {
   margin-bottom: 16px;
 }
@@ -529,7 +531,6 @@ h2 {
 .footer a {
   text-decoration: underline;
   color: #1085C5;
-
 }
 
 .definition {
