@@ -265,6 +265,10 @@ h2 {
   color: #2A2626;
 }
 
+.page-block-brown p {
+  color: inherit;
+}
+
 .title-text-box p:first-child {
   color: #908D8B;
   font-size: 24px;
@@ -411,9 +415,7 @@ h2 {
   color: #FFF;
 }
 
-.page-block-brown p {
-  color: inherit;
-}
+
 
 .page-block-brown .title-text-box {
   color: #FFF;
