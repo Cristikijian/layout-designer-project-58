@@ -154,16 +154,15 @@ main {
   margin: 0 auto;
 }
 
-h2 {
+/* h2 {
   font-size: 60px;
-}
+} */
 
 header h1 {
   height: 525px;
   max-width: auto;
 }
 
-p,
 .main-text p {
   margin-top: 12px;
   font-family: OpenSans, sans-serif;
@@ -293,12 +292,12 @@ h2 {
 .page-block-2 {
   height: 914px;
   margin-bottom: -200px;
-  padding-top: 100px;
+  padding-top: 85px;
   background-color: white;
 }
 
 .page-block-2 .title-box {
-  margin-bottom: 27px;
+  margin-bottom: 40px;
 }
 
 .page-block-2 .title-box h2 {
