@@ -153,11 +153,39 @@ main {
   max-width: 1440px;
   margin: 0 auto;
   padding-bottom: 110px;
+  font-family: OpenSans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2A2626;
 }
 
-/* h2 {
+h1,
+h2,
+h3 {
+  line-height: 1.2em;
+  font-family: Neucha, sans-serif;
+  margin: 15px 0;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
   font-size: 60px;
-} */
+}
+
+h3 {
+  font-size: 34px;
+}
+
+h2 {
+  color: #EA7600;
+}
+
+p {
+  margin-top: 25px;
+}
 
 header h1 {
   height: 525px;
@@ -595,8 +623,9 @@ h2 {
   flex: 50%;
 }
 
-.right-text-box .main-text:not(:first-child) {
-  margin-top: 25px;
+.right-text-box .main-text:first-child,
+.left-text-box .main-text:first-child {
+  margin-top: 0;
 }
 
 .btn-see-more {
