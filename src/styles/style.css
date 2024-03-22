@@ -165,7 +165,7 @@ p {
 }
 
 .cd-programming-col-text p:last-of-type {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .cd-programming-col-text p:nth-child(1) {
@@ -477,4 +477,8 @@ button::before {
 .footer-down {
   font-size: 14px;
   text-align: center;
+}
+
+.padding-10 {
+  padding-top: 10px;
 }
